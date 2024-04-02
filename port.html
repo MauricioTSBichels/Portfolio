@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+       <p>Mauricio Telles Silva Bichels</p> 
+       <nav>
+         <ul>
+            <li>
+                <a href="#cabecalho">Home</a>
+            </li>
+            <li>
+                <a href="#Sobre mim">Sobre</a>
+            </li>
+            <li>
+                <a href="#Atividades">Projetos</a>
+            </li>
+            <li>
+                <a href="#Joguinho">Joguinho</a>
+            </li>
+            <li>
+                <a href="#Cifra">Cifra de césar</a>
+            </li>
+         </ul>
+       </nav>
+    </header>
+    <div class="cabecalho" id="cabecalho">
+        <h1>Bem-Vindo ao meu portfolio</h1>
+        <p>Espero que goste :)</p>
+        <p>Aqui você vai encontrar neus trabalhos e atividades da área tecnica de desenvolvimento de sistemas </p>
+    </div>
+    <div class="Sobre mim" id="Sobre mim">
+      <h1>Sobre mim</h1>
+      <p>Meu nome é Mauricio, sou um estudante do senai no ensino médio com desenvolvimentos de sistemas integrado</p>
+      <p>Trabalho na Décio/intelbras na área de gestão de projetos</p>
+      <a href="https://github.com/MauricioTSBichels">Meu perfil no github</a>
+    </div>
+    <div class="introdução">
+        <div class="Atividades" id="Atividades">
+            <h1>Atividades</h1>
+            <h3>Aqui estão as atividades feitas esse trimestre:</h3>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTqo32d9G7hM8q0GYBCv49bVaB3UT0PuWisVs2Rg4Y2aSIuWlnuund17lrXpAliffA0WdVvAvYduqPf/embed?start=true&loop=true&delayms=1000" frameborder="15" width="610" height="380" allowfullscreen="false" mozallowfullscreen="false" webkitallowfullscreen="false"></iframe>
+            <p>portifolio em HTML:</p>
+            <a href="https://ibb.co/HqLbMNQ"><img src="https://i.ibb.co/m4r2Yv7/carbon-2.png" alt="carbon-2" border="0"></a><br />
+        </div>
+     <h2>Codigos</h2>
+     <p>Aqui você pode ver alguns codigos feitos por mim</p>
+     <p>Abaixo você pode acessar os 2 pricipais repositorios meus:</p>
+     <a href="https://github.com/MauricioTSBichels/Portugol">Codigos do portugol</a>
+     <p></p>
+     <a href="https://github.com/MauricioTSBichels/Projetos_Autorais">Projetos Autorais</a>
+        <div class="Joguinho" id="Joguinho">
+         <h2>Joguinho</h2>     
+         <p>Aqui a baixo esta um joguinho da adivinhação que eu fiz </p>
+         <p>Foi sorteado um número entre 0 e 10. Tente adivinhar!</p>
+         <input type="numero" id="resposta">
+         <button onclick="checkar()">Adivinhar</button>
+         <p id="mensagem"></p>
+         <script src="Adivinhação.js"></script>
+         <div class="explicação do jogo">
+             <a>--------------------------------------------------------------------------------------------------------------------</a>
+             <p>Esse jogo que eu criei utiliza 2 linguagens que foi HTML e JavaScript</p> 
+             <p>Eu tive essa ideia depois de pensar que o meu portifolio estava muito cru e com poucas coisas</p>
+             <p>Pretendo sempte ir atualizando e colocando mais coisas por aqui pois isso ajuda como uma forma de memorização</p>
+             <p>O JavaScript desse joginho é bem simples, nele só tem comnado de pegar numeros aleatoriamente e if,else if e else</p>
+         </div>
+        </div>
+    <div class="Cifra de cesar" id="Cifra">
+     <p>--------------------------------------------------------------------------------------------------------------------</p>   
+     <h2>Cifra de césar</h2>
+     <div class="Chave">
+         <p>(Caso queria testar recomendo esse site:<a href="https://site112.com/cifra-de-cesar-codificar-descodificar">Site para testar a cifra</a>)</p>
+         <label for="Chave">Chave do codigo a ser decifrado:</label><br>
+         <textarea id="Chave" rows="1" cols="2"></textarea><br>
+     </div>
+     <div class="Caixa de texto">
+         <label for="CT">Codigo a ser decifrado:</label><br>
+         <textarea id="CT" rows="5" cols="50"></textarea><br>
+         <button onclick="decifrarCifra()">Decifrar</button>
+         <P>Resultado:</P>
+         <p id="Decifrado"></p>
+         <script src="Cifra de César.js"></script>
+     </div>
+     <div class="Ecifra">
+         <p>--------------------------------------------------------------------------------------------------------------------</p>  
+         <p>Esse Decifrador usa Javascript para decifrar com a chave a frase ou palavra encriptada</p>
+         <p>Por em quanto esse foi o meu projeto mais complicado em JavaScript e estou feliz em ter conseguido finalizalo</p>
+         <p>Bom tive essa ideia após pesquisar um pouco sobre criptografia e como ela funcionava</p>
+     </div>
+    </div>
+    </div>
+    <style>
+        .cabecalho{
+         background-color: rgb(168, 181, 192);
+        }
+    </style>
+    <style>
+        body {
+         font-family: 'Courier New', Courier, monospace;
+         display: grid; 
+         justify-content: center; 
+         align-items: center; 
+         background-color: rgb(168, 181, 192);
+        }
+    </style> 
+</body>
+</html>
