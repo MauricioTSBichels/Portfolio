@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    padding: 10px 70px;
+    justify-content: space-between;
+    background-color:rgb(209, 199, 199);
+}
+ul {
+    display: flex; 
+    gap: 40px;
+}
+li{
+    list-style: none;
+}
+.adi{
+    background-color: bisque;
+}
